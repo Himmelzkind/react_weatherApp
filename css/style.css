@@ -1,0 +1,145 @@
+body {
+  background-color: #27292b;
+  font-family: "Playfair Display", "Open Sans condensed", "Calibri Light", Arial;
+  color: white;
+}
+
+.main_top {
+  margin: 30px auto 0 auto;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7570378493194152) 0%,
+      rgba(150, 150, 150, 0.3536765047816002) 39%,
+      rgba(224, 224, 224, 0.03995101458552175) 100%
+    ),
+    url("https://cdn.pixabay.com/photo/2016/03/09/15/18/stars-1246590__340.jpg");
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 2px 0px 3px rgba(128, 128, 128, 0.301),
+    -2px 0px 3px rgba(128, 128, 128, 0.301);
+  padding: 20px 30px 10px 30px;
+}
+
+.btn-primary.mb-2:hover {
+  background-color: white;
+  transition: 0.22s ease;
+}
+
+.btn-primary.mb-2 {
+  background-color: rgba(128, 128, 128, 0.349);
+  border: 0.5px solid white;
+  border-radius: 50%;
+  padding: 0.2rem 0.45rem;
+}
+
+i:hover {
+  color: black;
+}
+
+h1,
+h2,
+.weatherToday {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+h2,
+ul > :first-child {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.main_top,
+.forecast_bottom {
+  border: 1px solid rgba(0, 0, 0, 0);
+  max-width: 500px;
+}
+
+#icon-main {
+  display: block;
+  margin: 0 auto;
+}
+
+.forecast-icon {
+  width: 100%;
+}
+
+.forecast_bottom {
+  background-color: #1d1f20;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 2px 3px 3px rgba(128, 128, 128, 0.301),
+    -2px 0px 3px rgba(128, 128, 128, 0.301);
+  margin: 0 auto 10px auto;
+  padding: 10px 25px 20px 25px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+#currentTemp,
+.units {
+  font-size: 34px;
+}
+
+#humidity-wind {
+  font-size: 12px;
+}
+
+#celsius-link {
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+}
+#fahrenheit-link {
+  font-size: 17px;
+  font-weight: 300px;
+  margin-left: -3px;
+  padding: -6px;
+  color: rgb(207, 196, 255);
+  text-decoration: none;
+}
+.weatherToday .active {
+  color: white;
+  cursor: default;
+}
+.weatherToday .active:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+#osc {
+  color: rgb(217, 241, 252);
+  font-weight: 400px;
+  margin-left: 10px;
+}
+
+.weather-forecast-temp {
+  text-align: center;
+}
